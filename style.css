@@ -5,11 +5,13 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 150px;
+
 }
 
 .top-h1 {
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -24,6 +26,7 @@ section {
     border-radius: 5px;
     text-align: center;
 
+
 }
 
 .top-sector {
@@ -35,4 +38,52 @@ section {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.donation-box {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    width: 20px 40px;
+    align-items: center;
+
+
+}
+
+.first-part {
+    text-align: center;
+    justify-content: center;
+}
+
+.taka {
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 30px gray;
+    width: 25%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    border-radius: 5px;
+    color: grey;
+}
+
+.middle-section {
+    align-items: center;
+    text-align: center;
+}
+
+#tk-colour {
+    background-image: linear-gradient(orange, tomato);
+    border-color: 7px solid black;
+    color: darkred;
+}
+
+.width {
+    width: 100%;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid grey;
+    font-size: 40px;
 }
