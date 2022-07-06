@@ -181,11 +181,18 @@ input {
     box-shadow: 8px 8px 16px;
     padding: 20px;
     border-radius: 5px;
-    background-color: rgb(224, 162, 162);
+    background-color: rgb(44, 145, 240);
     justify-content: center;
 
 }
 
 .medical-icon {
     width: 50px;
+}
+
+.medical-div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
 }
