@@ -16,6 +16,13 @@ section {
     padding-right: 20px;
 }
 
+.icon-div {
+    display: flex;
+    height: 300px;
+    height: 200px;
+    border: 1px solid gray;
+}
+
 
 
 .donate-button {
@@ -26,8 +33,13 @@ section {
     border-radius: 5px;
     text-align: center;
 
-
 }
+
+.donate-button-div {
+    padding-top: 40px;
+}
+
+
 
 .top-sector {
     display: flex;
@@ -82,8 +94,61 @@ section {
     width: 100%;
 }
 
+.icon-div {
+
+    display: flex;
+
+
+    width: 200%;
+}
+
 input {
     border: none;
     border-bottom: 2px solid grey;
     font-size: 40px;
+}
+
+.part-3-div-1 {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+}
+
+.icon-div-1 {
+    width: 350px;
+    height: 250px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 16px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(144, 184, 184);
+
+}
+
+.icon-1 {
+    width: 50px;
+}
+
+.icon-div-2 {
+    width: 350px;
+    height: 250px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 16px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(224, 162, 162);
+}
+
+.icon-div-3 {
+    width: 350px;
+    height: 250px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 16px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(226, 199, 252);
 }
