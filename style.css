@@ -112,8 +112,12 @@ input {
     align-items: center;
     text-align: center;
     width: 100%;
+    padding-right: ;
 
 }
+
+
+
 
 .icon-div-1 {
     width: 350px;
@@ -140,6 +144,7 @@ input {
     padding: 20px;
     border-radius: 5px;
     background-color: rgb(224, 162, 162);
+
 }
 
 .icon-div-3 {
@@ -151,4 +156,36 @@ input {
     padding: 20px;
     border-radius: 5px;
     background-color: rgb(226, 199, 252);
+}
+
+.learn-more-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(136, 85, 231), rgb(61, 18, 85));
+    padding: 10px 5px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.learn-more {
+    display: list-item;
+    text-align: center;
+}
+
+.medical-help {
+    padding-top: 40px;
+    width: 380px;
+    height: 280px;
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 16px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(224, 162, 162);
+    justify-content: center;
+
+}
+
+.medical-icon {
+    width: 50px;
 }
