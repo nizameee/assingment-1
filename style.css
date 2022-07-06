@@ -9,6 +9,9 @@ section {
 
 }
 
+
+
+
 .top-h1 {
     color: white;
     font-size: 35px;
@@ -20,7 +23,8 @@ section {
     display: flex;
     height: 300px;
     height: 200px;
-    border: 1px solid gray;
+
+    justify-content: center;
 }
 
 
